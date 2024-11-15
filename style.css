@@ -1,0 +1,19 @@
+*,::after,::before{
+    box-sizing: inherit;
+}
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blok{
+    margin-top: 15rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.butSize{
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 15rem;
+}
