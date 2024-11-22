@@ -31,7 +31,6 @@ const createEvent = (udalost, pocetLidi, company) => {
 createEvent("Festival smíchu & pláče", 100, justFood)
 createEvent("Filmový festival", 100, flavourHaven)
 createEvent("Galavečer SVĚTluška", 100, yourMama)
-
 /*---konec řešení úkolu---*/
 
 btnAft.addEventListener("click", () => {
