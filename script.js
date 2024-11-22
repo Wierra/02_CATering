@@ -40,17 +40,17 @@ btnAft.addEventListener("click", () => {
 setTimeout (() => {
     const food = document.querySelector('#food')
     food.textContent = "Festival smíchu & pláče s cateringem od Just Food pro 100 osob za " + (100*300).toLocaleString('cz') + " Kč."
-}, 7000)
+}, 6000)
 
 setTimeout (() => {
     const mama = document.querySelector('#mama')
     mama.textContent = "Filmový festival s cateringem od Your Mamam pro 100 osob za " + (100*600).toLocaleString('cz') + " Kč."
-}, 8000)
+}, 7000)
 
 setTimeout (() => {
     const haven = document.querySelector('#haven')
     haven.textContent = "Galavečer SVĚTluška s cateringem od Flavour Haven pro 100 osob za " + (100*900).toLocaleString('cz') + " Kč."
-}, 9000)
+}, 8000)
 
 const butSubmit = document.querySelector("#submit")
 setTimeout (() => {
