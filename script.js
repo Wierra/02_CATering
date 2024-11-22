@@ -2,7 +2,6 @@ const btnAft = document.querySelector("#btnBef")
 const text = document.querySelector("#selection")
 const dot = document.querySelector("#food")
 
-
 setTimeout (() => {
     btnAft.textContent = "Nabídka pro vás :)";
     btnAft.classList.add ('btnNew');
@@ -10,6 +9,7 @@ setTimeout (() => {
     text.textContent = "HURÁ, našli jsme...";
 }, 4000)
 
+/*řešení domácího úkolu č. 2 (řádek č. 13-33)*/
 const justFood = (pocetLidi) => {
     return `Catering Just Food pro ${pocetLidi} za ${(pocetLidi * 300).toLocaleString('cz')} Kč.`
 }
@@ -25,13 +25,14 @@ console.log(yourMama(100))
 console.log(flavourHaven(100))
 
 const createEvent = (udalost, pocetLidi, company) => {
-    return console.log(`${udalost} s cateringem od ${company(pocetLidi)}`)
+    console.log(`${udalost} s cateringem od ${company(pocetLidi)}`)
 }
 
 createEvent("Festival smíchu & pláče", 100, justFood)
 createEvent("Filmový festival", 100, flavourHaven)
 createEvent("Galavečer SVĚTluška", 100, yourMama)
 
+/*---konec řešení úkolu---*/
 
 btnAft.addEventListener("click", () => {
     btnAft.classList.add ('submitClick');
@@ -53,10 +54,11 @@ setTimeout (() => {
 }, 8000)
 
 const butSubmit = document.querySelector("#submit")
+
 setTimeout (() => {
     butSubmit.textContent = "TO CHCI!";
     butSubmit.classList.add ('submitNew');
-    butSubmit.disabled = false;
+    butSubmit.classList.remove ('hidden');
 }, 10000)
 
 butSubmit.addEventListener("click", () => {
