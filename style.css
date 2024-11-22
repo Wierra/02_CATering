@@ -7,27 +7,47 @@ html{
     color:rgb(52, 52, 52);
 }
 
-h1{
+h1, h2{
     color: rgb(164, 3, 3);
 }
 
 .blok{
-    margin-top: 15rem;
+    margin-top: 6rem;
     text-align: center;
     font-size: 2rem;
 }
 
-.btnSize{
+.btnSize, .submitNew{
     color: rgb(35, 35, 35);
     font-size: 2rem;
     font-weight: bold;
     padding: 3rem;
     border-radius: 15rem;
-    border: solid 0.5rem rgb(52, 52, 52);
+    border: solid 0.4rem rgb(52, 52, 52);
 }
 
 .btnNew{
     background-color: rgba(255, 99, 71, 0.601);
     color: rgb(36, 36, 36);
     text-transform: uppercase;
+}
+
+.title2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.submitNew{
+    color: rgb(35, 35, 35);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 15rem;
+    border: solid 0.2rem rgb(52, 52, 52);
+}
+
+.submitClick{
+    background-color: rgba(247, 48, 13, 0.601);
+    color:rgb(164, 3, 3);
+    border: solid 0.4rem rgb(164,3, 3);
 }
