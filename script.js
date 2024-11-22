@@ -56,6 +56,7 @@ const butSubmit = document.querySelector("#submit")
 setTimeout (() => {
     butSubmit.textContent = "TO CHCI!";
     butSubmit.classList.add ('submitNew');
+    butSubmit.disabled = false;
 }, 10000)
 
 butSubmit.addEventListener("click", () => {
